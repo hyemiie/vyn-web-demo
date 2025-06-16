@@ -4,3 +4,4 @@ Django==5.1.7
 prettytable==3.16.0
 python-dotenv==1.1.0
 Requests==2.32.4
+gunicorn
