@@ -50,16 +50,6 @@ python manage.py runserver
 Visit `http://127.0.0.1:8000` to verify the backend is running.
 
 
-
-## 📁 Project Structure
-
-vyn-web-demo/
-├── manage.py
-├── requirements.txt
-├── scanner/        # Django app for vulnerability scan logic
-├── scanboard/      # Django app for UI endpoints & admin logic
-
-
 ## 🧱 Tech Stack
 - *Backend*: Python, Django
 - *Database*: SQLite (for development)
