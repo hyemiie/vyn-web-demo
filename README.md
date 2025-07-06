@@ -18,6 +18,13 @@ This repo contains the **Django backend**, which handles vulnerability scans, st
 
 ---
 
+
+## 🧱 Tech Stack Used
+- *Backend*: Python, Django
+- *API Format*: JSON
+- *Frontend (in a separate repo)*: Nextjs
+  
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
@@ -49,12 +56,6 @@ python manage.py runserver
 ```
 Visit `http://127.0.0.1:8000` to verify the backend is running.
 
-
-## 🧱 Tech Stack
-- *Backend*: Python, Django
-- *Database*: SQLite (for development)
-- *API Format*: JSON
-- *Frontend (separate)*: Nextjs
 
 ## 🤝 Connect
 I'm always open to feedback and suggestions, you can reach me at 
