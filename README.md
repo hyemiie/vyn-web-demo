@@ -69,7 +69,7 @@ vyn-web-demo/
 I'm always open to feedback and suggestions, you can reach me at 
 
 GitHub: [@hyemiie](https://github.com/hyemiie)  
-Frontend Repository: [chat-app-frontend](https://github.com/hyemiie/chatApplication)  
+Frontend Repository: [Vyn-frontend](https://github.com/hyemiie/vyn_web_scanner)  
 Email: yemiojedapo1@gmail.com
 
 
