@@ -3,7 +3,7 @@
 This is the **backend server** for **Vyn**, an AI-powered code security scanner that analyzes codebases for vulnerabilities and returns actionable insights.
 
 
-This repo contains the **Django backend**, which handles vulnerability scans, stores results, and serves data to the [frontend interface](https://github.com/hyemiie/vyn_web_scanner).
+This repo contains the **Django backend**, which handles vulnerability scans, stores results, and serves data to the [frontend interface](https://vyn-web-scanner.onrender.com/hero).
 
 > 🔗 **Frontend repository**: [vyn-frontend-demo](https://github.com/hyemiie/vyn_web_scanner)
 
