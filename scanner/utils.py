@@ -15,7 +15,6 @@ def scan(target, format, recursive):
     
     issue_list = []
 
-    # Define directories to skip
     IGNORED_DIRS = {'node_modules', '.git', '__pycache__', '.venv', 'venv', 'env', 'dist', 'build', 'migrations'}
 
     if os.path.isdir(target):
