@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-960r(ls3o*iivobg4!^8m@bvx(ra$!ap7+g8u@6&qu4n!4s9wv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vyn-web-demo.onrender.com' ,'localhost', '127.0.0.1', '.koyeb.app']
+ALLOWED_HOSTS = ['vyn-web-demo.onrender.com' ,'localhost', '127.0.0.1', '.koyeb.app', 'https://vyn-web-scanner.vercel.app']
 
 # Application definition
 
