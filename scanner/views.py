@@ -17,7 +17,7 @@ OPENROUTER_API_KEY = os.getenv("OPEN_ROUTER_AI_KEY")
 
 @csrf_exempt
 def receive_repo(request):
-    print('repository received')
+    print('repository receivedxcfvgb')
 
     if request.method == "POST":
         try:
@@ -26,15 +26,16 @@ def receive_repo(request):
             print("Request URL:", repo_url)
 
             if not repo_url:
+                # print('hello1')
                 return JsonResponse({"error": "No repository URL provided."}, status=400)
 
             scan_result = clone_and_scan_repo(repo_url)
-            print("Scan result:", scan_result)
 
-            if isinstance(scan_result, str) and (
-                scan_result.startswith("Failed") or "error" in scan_result.lower()
-            ):
-                return JsonResponse({"error": scan_result}, status=400)
+            # if isinstance(scan_result, str) and (
+            #     scan_result.startswith("Failed") or "error" in scan_result.lower()
+            # ):
+            #     print('hello')
+            #     return JsonResponse({"error": scan_result}, status=400)
 
             if scan_result:
                 return JsonResponse({"report": scan_result})
@@ -42,8 +43,10 @@ def receive_repo(request):
                 return JsonResponse({"error": "Scan failed."}, status=500)
 
         except json.JSONDecodeError:
+            # print('hello2')
             return JsonResponse({"error": "Invalid JSON."}, status=400)
         except Exception as e:
+            # print('hello3')
             return JsonResponse({"error": f"Unexpected server error: {str(e)}"}, status=500)
 
     return HttpResponse("Send a POST request with a repo_url.")
@@ -63,7 +66,6 @@ def clone_and_scan_repo(repo_url):
 
             print('Cloned successfully')
             scan_result = scan(target=temp_dir, format='json', recursive=True)
-            print('Scan result:', scan_result)
             return scan_result
 
     except subprocess.CalledProcessError as e:
