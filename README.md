@@ -1,31 +1,33 @@
-# Vyn – Web Backend 🛡️
+# Vyn – Web Backend 
 
-This is the **backend server** for **Vyn**, an AI-powered code security scanner that analyzes codebases for vulnerabilities and returns actionable insights.
+This is the **backend server** for **Vyn**, an AI-powered code security scanner that analyzes codebases for vulnerabilities and returns actionable insights to the [frontend interface](https://vyn-web-scanner.onrender.com/hero).
+
+> **Frontend repository**: [vyn-frontend-repo](https://github.com/hyemiie/vyn_web_scanner)
+
+## How It works
+
+Vyn accepts public GitHub repositories through the frontend and scans the codebase for potential security vulnerabilities. The backend processes each scan and uses a large language model (LLM) to analyze detected issues, assign severity levels, and generate actionable recommendations. 
+
+### The backend is responsible for:
+
+- Accepting and processing public code repositories  
+- Analyzing repositories for potential security vulnerabilities  
+- Structuring vulnerability data and sending it to an LLM using optimized prompts  
+- Interpreting LLM responses to generate fix suggestions, classified by severity (critical, high, medium, low)  
+- Serving scan results to the frontend through a REST API  
 
 
-This repo contains the **Django backend**, which handles vulnerability scans, stores results, and serves data to the [frontend interface](https://vyn-web-scanner.onrender.com/hero).
-
-> 🔗 **Frontend repository**: [vyn-frontend-repo](https://github.com/hyemiie/vyn_web_scanner)
 
 ---
 
-## 🔧 Features
 
-- ⚙️ Django-based web backend
-- 🧠 Handles AI-generated vulnerability scanning results
-- 🔐 API endpoints to fetch scan results
-- 🌱 Easily extensible and modular architecture
-
----
-
-
-## 🧱 Tech Stack Used
+## Technologies Used
 - *Backend*: Python, Django
 - *API Format*: JSON
 - *Frontend (in a separate repo)*: Nextjs
   
 
-## 🚀 Getting Started
+## How to Set Up the Server Locally
 
 ### 1. Clone the repo
 
@@ -57,7 +59,7 @@ python manage.py runserver
 Visit `http://127.0.0.1:8000` to verify the backend is running.
 
 
-## 🤝 Connect
+## Connect
 I'm always open to feedback and suggestions, you can reach me at 
 
 GitHub: [@hyemiie](https://github.com/hyemiie)  
