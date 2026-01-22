@@ -22,9 +22,13 @@ Vyn accepts public GitHub repositories through the frontend and scans the codeba
 
 
 ## Technologies Used
-- *Backend*: Python, Django
-- *API Format*: JSON
-- *Frontend (in a separate repo)*: Nextjs
+**Backend**: Python, Django
+
+**AI Integration **: OpenAI’s LLM 
+
+**Scanning /Analysis:** Bandit
+
+**Frontend (in a separate repo):** Next.js
   
 
 ## How to Set Up the Server Locally
