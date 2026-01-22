@@ -16,10 +16,7 @@ Vyn accepts public GitHub repositories through the frontend and scans the codeba
 - Interpreting LLM responses to generate fix suggestions, classified by severity (critical, high, medium, low)  
 - Serving scan results to the frontend through a REST API  
 
-
-
 ---
-
 
 ## Technologies Used
 **Backend**: Python, Django
