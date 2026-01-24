@@ -4,9 +4,11 @@ This is the **backend server** for **Vyn**, an AI-powered code security scanner 
 
 > **Frontend repository**: [vyn-frontend-repo](https://github.com/hyemiie/vyn_web_scanner)
 
+<div>
+  <img src="https://i.ibb.co/3yL8DBdh/vyndemo2.png" alt="vyndemo2" width="49%" />
+  <img src="https://i.ibb.co/0VF8d21D/vyndemo.png" alt="vyndemo" width="49%" />
+</div>
 
-<a href="https://ibb.co/KzLR3hB0"><img src="https://i.ibb.co/0VF8d21D/vyndemo.png" alt="vyndemo" border="0" /></a>
-<a href="https://ibb.co/PZfb7wjC"><img src="https://i.ibb.co/3yL8DBdh/vyndemo2.png" alt="vyndemo2" border="0" /></a>
 ## How It works
 
 Vyn accepts public GitHub repositories through the frontend and scans the codebase for potential security vulnerabilities. The backend processes each scan and uses a large language model (LLM) to analyze detected issues, assign severity levels, and generate actionable recommendations. 
