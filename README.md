@@ -21,7 +21,7 @@ Vyn accepts public GitHub repositories through the frontend and scans the codeba
 ## Technologies Used
 **Backend**: Python, Django
 
-**AI Integration **: OpenAI’s LLM 
+**AI Integration**: OpenAI’s LLM 
 
 **Scanning /Analysis:** Bandit
 
